@@ -1,0 +1,49 @@
+@import '../../../../assets/style/variables'
+
+.wrapper-shop
+  margin: 0 2rem
+  .section-name
+    color: $green-1
+    font-size: 1.6rem
+    margin-bottom: 2rem
+    font-family: $font-medium
+  .head
+    margin: 0 0 6rem 0
+    display: flex
+    align-items: center
+    justify-content: space-between
+    .title
+      font-size: 3.6rem
+      font-family: $font-bold
+    .see-more
+      display: flex
+      cursor: pointer
+      font-size: 1.6rem
+      font-family: $font-bold
+      img
+        margin-left: 1.3rem
+  .items
+    display: flex
+    list-style: none
+    overflow-x: scroll
+    li
+      margin: 0 3rem 0 0
+      &:last-child
+        margin: 0
+      .item
+        width: 300px
+        height: 430px
+        background-color: $white-1
+        figure
+          overflow: hidden
+          width: 260px
+          height: 380px
+          display: flex
+          align-items: center
+          justify-content: center
+          img
+            width: 100%
+        .name
+          font-size: 1.6rem
+          text-align: center
+          font-family: $font-bold

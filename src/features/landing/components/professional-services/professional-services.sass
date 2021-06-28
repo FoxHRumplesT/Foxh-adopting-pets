@@ -1,0 +1,45 @@
+@import '../../../../assets/style/variables'
+  
+.wrapper-professional-services
+  margin: 0 2rem
+  .head
+    display: flex
+    margin: 0 0 2.2rem 0
+    justify-content: space-between
+    .name
+      color: $green-1
+      font-size: 1.6rem
+      font-family: $font-medium
+    .arrows
+      display: flex
+      .left
+        margin-right: 2rem
+        transform: rotate(180deg)
+      .left, .right
+        cursor: pointer
+  .items
+    display: flex
+    list-style: none
+    overflow-x: scroll
+    li
+      margin-right: 50px
+      &:last-child
+        margin: 0
+      .item
+        width: 254px
+        height: 100px
+        display: flex
+        cursor: pointer
+        border-radius: 4px
+        align-items: center
+        justify-content: center
+        background-color: $white-1
+        .main-icon
+          width: $header-h
+          margin-right: 1.8rem
+        .name
+          font-size: 1.6rem
+          margin-right: 1.8rem
+          font-family: $font-medium
+        .arrow
+          height: 1.6rem

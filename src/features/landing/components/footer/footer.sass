@@ -1,0 +1,98 @@
+@import '../../../../assets/style/variables'
+
+.wrapper-footer
+  margin: 5rem 0 0 0
+  padding: 5rem 0 0 0
+  background-color: $green-2
+  .title
+    font-size: 4.8rem
+    text-align: center
+    font-family: $font-extrabold
+  .description
+    color: $gray-1
+    font-size: 2.4rem
+    text-align: center
+    margin: 0 0 2rem 0
+    font-family: $font-medium
+  .form
+    width: 600px
+    height: 94px
+    display: flex
+    border-radius: 8px
+    align-items: center
+    margin: 0 auto 10rem auto
+    background-color: $white-1
+    input
+      margin: 0 0 0 2rem
+      flex: 1
+      border: none
+      outline: none
+      font-size: 1.6rem
+      height: calc(100% - 40px)
+      font-family: $font-medium
+      &::placeholder
+        color: $gray-1
+        font-size: 1.6rem
+        font-family: $font-medium
+    button
+      border: none
+      padding: 0 4rem
+      color: $white-1
+      font-size: 1.6rem
+      border-radius: 4px
+      margin: 0 2rem 0 0
+      height: calc(100% - 40px)
+      font-family: $font-medium
+      background-color: $green-1
+  .info
+    width: 100%
+    margin: auto
+    display: flex
+    padding: 20px 0
+    max-width: 1600px
+    align-items: center
+    justify-content: space-between
+    border-bottom: 2px solid $gray-2
+    .follow-us
+      margin: 0 0 0 2rem
+      .name
+        font-size: 2.4rem
+        margin: 0 0 .8rem 0
+        font-family: $font-semibold
+      .icons
+        display: flex
+        .icon
+          width: 42px
+          height: 42px
+          display: flex
+          margin: 0 2rem 0 0
+          border-radius: 50%
+          align-items: center
+          justify-content: center
+          background-color: $green-3
+          &:last-child
+            margin: 0
+    .address
+      width: 155px
+      margin: 0 2rem 0 0
+      .name
+        color: $green-4
+        font-size: 1.6rem
+        margin: 0 0 1.2rem 0
+        font-family: $font-medium
+      .phone
+        font-size: 2.4rem
+        margin: 0 0 1.2rem 0
+        font-family: $font-medium
+      .address
+        color: $gray-1
+        font-size: 1.6rem
+        font-family: $font-medium
+  .rights
+    width:  calc(100% - 6rem)
+    margin: auto
+    padding: 3rem
+    max-width: 1600px
+    .text
+      font-size: 1.2rem
+      font-family: $font-regular
